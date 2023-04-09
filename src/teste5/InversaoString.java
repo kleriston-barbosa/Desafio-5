@@ -10,7 +10,7 @@ public class InversaoString {
 		String palavra;
 		String palavraInvertida ="";
 		System.out.println("Escreva uma palavra: ");
-		palavra = entrada.next();
+		palavra = entrada.nextLine().trim();
 		
 		for(int i = palavra.length()-1; i >= 0; i--) {
 			palavraInvertida += palavra.charAt(i);
